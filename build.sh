@@ -1,0 +1,1 @@
+docker build --tag rhks-docker:1 .

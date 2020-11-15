@@ -7,10 +7,10 @@
         <repository>
           <id>io.cloudrepo</id>
           <name>Cloud Repo</name>
-          <url>https://maucar.mycloudrepo.io/repositories/pocrepo</ur>
+          <url>https://maucar.mycloudrepo.io/repositories/pocrepo</url>
             <releases>
               <enabled>false</enabled>
-              <!--updatePolicy>never</updatePolicy-->
+              <updatePolicy>never</updatePolicy>
             </releases>
             <snapshots>
               <enabled>true</enabled>
@@ -18,7 +18,7 @@
        </repository>
       </repositories>
     </profile>
-  </profiles/>
+  </profiles>
   <activeProfiles>
     <activeProfile>cloudrepo</activeProfile>
   </activeProfiles>
